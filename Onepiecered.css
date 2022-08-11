@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    color: deepskyblue;
+}
+
+
+.backvid video{
+    background-color: rgba(0,0,0,0.4);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(4px);
+    align-self: center;
+    height: 2000px;
+    scale: 150%;
+}
+
+@media (min-aspect-ratio: 4/3){
+    .backvid video, .im2 img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-aspect-ratio: 4/3){
+    .backvid video, .img2 img{
+        width: auto;
+        height: 83%;
+    }
+}
+
+.logo img{
+    margin: auto;
+    position: relative;
+    top: 50px;
+    left: 300px;
+    width: 700px;
+    height: 200px;
+}
+
+.csum {
+    margin: auto;
+    position: relative;
+    border-radius: 30px;
+    width: 900px;
+    height: 560px;
+    top: 120px;
+}
+
+.imgsum img {
+    border-radius: 10px;
+    border: 10px solid black;
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+
+}
+
+.wordsum p {
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: deepskyblue;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 450px;
+    margin-right: 10px;
+    position: relative;
+    top: 40px;
+}
+
+.img2 img{
+    z-index: -1;
+    position: absolute;
+    margin-top: 150px;
+    filter: blur(10px) saturate(70%);
+}
+
+.section2 {
+    background-color: rgba(0,0,0,0.4);
+    position: relative;
+    margin: auto;
+    top: 300px;
+    width: 1100px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 360px;
+}
+
+.trailer iframe{
+    border: 10px double black;
+    border-radius: 10px;
+    float: left;
+}
+
+.watch h2{
+    color: whitesmoke;
+    position: relative;
+    left: 0px;
+    margin: auto;
+    text-align: center;
+    margin-left: 480px;
+    font-family: 'Trebuchet MS', serif;
+    font-size: 50px;
+}
+
+.table {
+    padding: 20px;
+}
+
+.table table{
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    min-width: 400px;
+    text-align: left;
+}
+
+.table th{
+    padding: 8px 15px;
+}
+
+a:link, a:visited {
+    border: 3px solid rgb(24, 133, 69);
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: rgba(39, 32, 32, 0.699);
+}
